@@ -33,7 +33,9 @@
 	<!-- Analytics END -->
 	
 </head>
-<body>
+<body class="defer-transitions">
+<script defer>document.querySelector("body").classList.remove("defer-transitions");</script> <!-- Active les transitions après le chargement de la page -->
+
 	<!-- Principal conteneur -->
 	<div class="page-container">
 		
@@ -131,18 +133,18 @@
 			<div class="container bloc-sm">
 				<div class="row">
 					<div class="col-sm-12">
-						<p class="text-center white">
+						<p class="text-center footer-color">
 							Agence La Panthère - Agence web basée à Lyon<br>
 						</p>
 						<div class="social-icons-row">
-							<a class="social-icon" href="https://twitter.com/" aria-label="Twitter"><span class="fa fa-fw fa-twitter icon-md"></span></a>
-							<a class="social-icon" href="https://facebook.com/" aria-label="Facebook"><span class="fa fa-fw fa-facebook icon-md"></span></a>
-							<a class="social-icon" href="https://dribbble.com/" aria-label="Dribbble"><span class="fa fa-fw fa-dribbble icon-md"></span></a>
-							<a class="social-icon" href="https://www.instagram.com/" aria-label="Instagram"><span class="fa fa-fw fa-instagram icon-md"></span></a>
+							<a href="https://twitter.com/" aria-label="Twitter"><span class="fa fa-fw fa-twitter icon-md social-icon footer-color"></span></a>
+							<a href="https://facebook.com/" aria-label="Facebook"><span class="fa fa-fw fa-facebook icon-md social-icon footer-color"></span></a>
+							<a href="https://dribbble.com/" aria-label="Dribbble"><span class="fa fa-fw fa-dribbble icon-md social-icon footer-color"></span></a>
+							<a href="https://www.instagram.com/" aria-label="Instagram"><span class="fa fa-fw fa-instagram icon-md social-icon footer-color"></span></a>
 						</div>
 						<div class="partenaires">
-							<span class="partenaires-title">Partenaires</span>
-							<ul>
+							<span class="partenaires-title footer-color">Partenaires</span>
+							<ul class="footer-color">
 								<li><a href="http://voiture.com">voiture.com</a></li>
 								<li><a href="http://pizza.com">pizza.com</a></li>
 								<li><a href="http://matoiture.com">matoiture.com</a></li>

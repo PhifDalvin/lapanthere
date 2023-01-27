@@ -1,3 +1,11 @@
+.defer-transitions * {
+    -webkit-transition: none !important;
+    -moz-transition: none !important;
+    -ms-transition: none !important;
+    -o-transition: none !important;
+    transition: none !important;
+}
+
 body {
     margin: 0;
     padding: 0;
@@ -9,7 +17,7 @@ body {
 
 a,
 button {
-    transition: all .3s ease-in-out;
+    transition: background-color .3s ease-in-out;
     outline: none!important;
 }
 
@@ -26,6 +34,8 @@ a:hover {
     z-index: 100000;
     background: #FFFFFF url("img/pageload-spinner.gif") no-repeat center center;
 }
+
+
 
 .bloc {
     width: 100%;
@@ -717,6 +727,18 @@ p {
     gap: 10px;
     padding: 20px;
     justify-content: space-between;
+}
+
+.social-icon {
+    transition: all ease-in-out 0.2s;
+}
+
+.social-icon:hover {
+    color: white !important;
+}
+
+.footer-color {
+    color: #3D1414 !important;
 }
 
 .partenaires {
