@@ -467,8 +467,8 @@ h1, h2, h3, h4, h5, h6, p, label, .btn, a {
     max-width : 520px;
     margin : auto auto auto auto;
 }
-p {
-    font-size : 1em;
+p, label {
+    font-size : 16px !important;
 }
 .tight-width-whitespace {
     max-width : 600px;
